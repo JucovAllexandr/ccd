@@ -1,0 +1,12 @@
+#ifndef TRANSACTION_H
+#define TRANSACTION_H
+#include "account.h"
+
+class Transaction
+{
+public:
+    Transaction();
+    void addTransaction(Account from, Account to, int amount, long long time);
+};
+
+#endif // TRANSACTION_H
